@@ -13,10 +13,10 @@ The following steps are required to setup AWS. These steps can be automated as w
    * git clone https://github.com/KSM-Repo/devops-ansible-terraform.git
    * cd devops-ansible-terraform
    * ./setup.sh
-   Follow instructions to save the ssh keys to ~/.ssh/id_rsa  
+   * Follow instructions to save the ssh keys to ~/.ssh/id_rsa  
 4. To complete configuration run:
    * ./configure.sh
-   Provide Access Key and Secret Key from the downloaded user credentials (set region as 'us-east-1')
+   * Provide Access Key and Secret Key from the downloaded user credentials (set region as 'us-east-1')
 5. Run the following command to provision the resources:
    * terraform apply
 6. Get the public IP address of the newly created instance in AWS and enter it in the browser
